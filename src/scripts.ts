@@ -189,9 +189,6 @@ const startGame = () => {
   timer();
 }
 
-
-
-
 const timer = () => {
   let timeLeft = 59;
   const elem = document.querySelector('.js-timeout');
